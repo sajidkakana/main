@@ -1,8 +1,26 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>org.codehaus.mojo</groupId>
-  <artifactId>my-project</artifactId>
-  <version>1.0</version>
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- Project Information -->
+    <groupId>com.example</groupId>        <!-- Your project group ID -->
+    <artifactId>my-app</artifactId>       <!-- Your project artifact ID -->
+    <version>1.0-SNAPSHOT</version>       <!-- Your project version -->
+    <packaging>jar</packaging>            <!-- Packaging type: jar/war/pom -->
+
+    <name>My App</name>                   <!-- Name of the project -->
+    <description>My first Maven project</description>
+    <url>http://www.example.com</url>     <!-- Project URL (optional) -->
+
+    <!-- Build and Dependencies -->
+    <dependencies>
+        <!-- Example Dependency: JUnit -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
 </project>
